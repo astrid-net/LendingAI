@@ -143,4 +143,4 @@ for block in range(15331589, 17676716):
     print(block)
     dataset = get_borrows(block, dataset)
 
-np.savetxt("../Data/rawDataset.csv", dataset.reshape(-1, 14), delimiter=",", fmt="%s")
+np.savetxt("rawDataset.csv", dataset.reshape(-1, 14), delimiter=",", fmt="%s")
